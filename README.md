@@ -19,13 +19,13 @@
 ```
 
 ```javascript
-  // vue.config.js
-  const UniappToGroup = require('uniapp-to-group')
+  // vue.config.js or webpack config
+  const webpackCopyReplace = require('webpack-copy-replace')
 
   module.exports = {
   configureWebpack: {
     plugins: [
-      new UniappToGroup({/* API */})
+      new webpackCopyReplace({/* API */})
     ]
   }
 }

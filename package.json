@@ -1,6 +1,6 @@
 {
   "name": "webpack-copy-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack插件，处理打包后的文件，复制或者替换打包的内容",
   "main": "./src/index.js",
   "scripts": { },
